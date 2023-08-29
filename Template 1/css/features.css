@@ -1,0 +1,23 @@
+.features {
+    padding: 60px 0px;
+    background-color: #f6f6f6;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.features .feat {
+    text-align: center;
+}
+.features .feat i {
+    color: var(--main-color);
+}
+
+.features .feat h3 {
+    font-weight: bold;
+}
+.features .feat p {
+    color: rgb(120,120,120);
+}

@@ -1,0 +1,79 @@
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.header {
+    padding: 20px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    width: 60px;
+}
+.header .links {
+    position: relative;
+    cursor: pointer;
+}
+.header .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+    height: 2px;
+}
+.header .links .icon span:first-child {
+    width: 100%;
+}
+.header .links .icon span:nth-child(2) {
+    width: 50%;
+}
+.header .links .icon span:last-child {
+    width: 100%;
+}
+.header .links:hover .icon span:nth-child(2) {
+    width: 100%;
+}
+
+.header .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: calc(100% + 15px);
+    right: 0;
+    background-color: #f6f6f6;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+.header .links ul::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f6f6f6 transparent;
+    position: absolute;
+    right: 5px;
+    top: -18px;
+}
+.header .links ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    transition: padding-left 0.3s;
+}
+.header .links ul li a:hover {
+    padding-left: 25px;
+}
+.header .links:hover ul{
+    display: block;
+}
+.header .links ul li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}

@@ -7,3 +7,5 @@ productImages.forEach(img => {
         phonePicture.src = this.src;
     });
 });
+
+

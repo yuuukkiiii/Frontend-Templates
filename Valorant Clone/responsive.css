@@ -1,0 +1,275 @@
+@media screen and (max-width:768px) {
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+    }
+    .left-section .menu,
+    .right-section .search,
+    .play-now-btn {
+        display: none;
+    }
+    .right-section .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main-video {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 141%;
+    }
+    .video .title {
+        font-size: 17px;
+        top: 47%;
+        color: #ece8e1;
+        font-weight: bold;
+        margin-left: 105px;
+        width: 400px;
+    }
+    
+    .video .valorant-title {
+        font-size: 60px;
+        margin-left: 60px;
+    }
+    .play-free-btn {
+        top: 100%;
+        margin-left: 60px;
+        white-space: nowrap;
+    }
+    .sign-menu {
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        left: 30%;
+        top: 50%;
+    }
+    .sign-menu button {
+        position: absolute;
+        top: 34%;
+        left: 65%;
+        padding: 20px 90px;
+        white-space: nowrap;
+        
+    }
+    .sign-menu .sign-up-btn {
+        padding: 20px 80px;
+        left: 50%;
+        top: 40%;
+    }
+    .sign-menu .sign-up-title {
+        font-size: 15px;
+        top: 35%;
+        left: 12%;
+        white-space: nowrap;
+    }
+    .sign-menu .sign-in-title {
+        font-size: 15px;
+        top: 65%;
+        left: 25%;
+        white-space: nowrap;
+    }
+    .sign-menu .sign-in-btn {
+        top: 70%;
+        left: 50%;
+    }
+    .second-section .second-pic-content,
+    .second-section .third-pic-content {
+        display: none;
+    }
+    .second-section {
+        position: absolute;
+        width: 100%;
+        top: 120%;
+        left: 20%;
+        border-bottom: 1px solid black;
+        margin-left: 60px;
+    }
+    .second-section .first-pic-content h1 {
+        top: -30%;
+    }
+    .second-section .first-pic-content p {
+        margin-left: 10px;
+    }
+    .second-section .first-pic-content .date {
+        font-size: 10px;
+    }
+    .second-section .first-pic-content .title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .third-section {
+        display: none;
+    }
+
+    .fourth-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        margin-left: 60px;
+    }
+    .fourth-section .left-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 200%;
+        right: 0%;
+    }
+    .fourth-section button {
+        margin-bottom: 20px;
+    }
+    .fourth-section .first-title {
+        white-space: nowrap;
+    }
+
+    .fourth-section-heading {
+        position: absolute;
+        top: 170%;
+        right: 0%;
+        white-space: nowrap;
+        font-size: 70px;
+    }
+    .fourth-section .video-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid black;
+    }
+    .fourth-section .right-section {
+        position: absolute;
+        top: 250%;
+    }
+    .fourth-section-video {
+        width: 400px;
+    }
+    .fourth-section .video-section .play-btn {
+        position: absolute;
+        top: 45%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+    .fourth-section .video-section .play-btn-arrow {
+        position: absolute;
+        top: 59%;
+        left: 54%;
+        transform: translate(-50%, -50%);
+    }
+    .gameplay-btn {
+        position: absolute;
+        top: 50%;
+        left: -20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        margin-top: 2000px;
+        margin-right: 200px;
+        margin-left: 60px;
+    }
+
+    .last-section .last-section-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+    }
+    .last-section .heading {
+        font-size: 100px;
+        margin-top: 20px;
+    }
+    .last-section .last-section-background {
+        width: 450px;
+        margin-left: 400px;
+        border-bottom: 1px solid black;
+    }
+    .last-section button {
+        margin-bottom: 20px;
+    }
+    .last-section .title {
+        white-space: nowrap;
+    }
+    footer {
+        padding-right: 350px;
+        padding-left: 200px;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #292929;
+        width: 100%;
+        padding: 40px;
+        margin: 0;
+        padding: 0 350px;
+    }
+    .footer-content p {
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.15s;
+        margin-top: 20px;
+        white-space: nowrap;
+        margin-left: 80px;
+    }
+    .footer-content .download-riot-title {
+        margin-bottom: 30px;
+    }
+    .footer-content p:hover {
+        background-color: #494949;
+    }
+    .footer-content .download-riot-title {
+        width: 350px;
+    }
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .icon-container {
+        margin-left: 80px;
+    }
+    .logo-container .riot-footer-logo {
+        margin-left: 30px;
+    }
+    .icon-container i {
+        margin-left: 10px;
+        cursor: pointer;
+        
+    }
+    .copyrights {
+        margin-left: 100px;
+        width: 500px;
+    }
+    .privacy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+    }
+    .privacy p {
+        white-space: nowrap;
+        margin-top: 20px;
+    }
+    .teen-img {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+}
